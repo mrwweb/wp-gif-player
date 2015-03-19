@@ -1,0 +1,54 @@
+=== WP Gif Player ===
+Contributors: _changa_
+Tags: gif, player, easy
+Requires at least: 3.0.1
+Tested up to: 4.1.1
+Stable tag: trunk
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+WP Gif Player: an easy to use GIF Player for Wordpress
+
+== Description ==
+
+This plugin lets you add and play GIFs on your Wordpress page easily.
+Simply install the plugin, activate it and create a new post. Click the "Add GIF" button above the text editor and upload a GIF
+into the media uploader window, insert it into the post.
+The plugin will then insert a shortcode into your editor, which will be interpreted as a GIF on your site.
+When you save your post, the first frame of each Gif will be extracted and displayed on your website with the GIF button on top of it.
+If you click the button, the GIF will be played. Click again, and the first frame plus GIF button are displayed again.
+
+Settings:
+This plugin comes with a few settings regarding the automatic setting of thumbnails, which you can find in your WP Admin screen
+at "Settings -> WP Gif Player".
+
+You can choose between the following options for your GIF posts:
+- Set no thumbnail at all (e.g. if you don't display thumbnails in your theme)
+- Set the first frame of the first GIF in your post as the thumbnail (e.g. if you want a still image and not a whole GIF to display as the thumbnail)
+- Set the first GIF in your post as the thumbnail
+
+== Installation ==
+
+The installation process.
+
+1. Upload to the `/wp-content/plugins/` directory. Or directly upload from your Plugin management page.
+2. Activate the plugin through the 'Plugins' menu in WordPress.
+3. Add GIFs to your posts by clicking the "Add GIF" Button in your Post Editor and upload your files.
+4. The plugin inserts a shortcode into your editor for each file, which will be interpreted as a GIF on your site.
+5. Go to "Settings -> WP Gif Player" and change the settings if your GIF posts' thumbnails are not displaying the way you want them to.
+   You can choose between the following settigns for your GIF posts:
+   - Set no thumbnail at all (e.g. if you don't display thumbnails in your theme)
+   - Set the first frame of the first GIF in your post as the thumbnail (e.g. if you want a still image - without the play button - and not a whole GIF to display as the thumbnail)
+   - Set the first GIF in your post as the thumbnail
+
+
+== Frequently Asked Questions ==
+
+= Why does the plugin have thumbnail settings? =
+
+There are a variety of different Wordpress themes and setups which can differ substantially in their display of thumbnails.
+To make sure that most people can use this plugin and display the content that is produced by it the way they wish, WP Gif Player offers
+these settings.
+
+
+
