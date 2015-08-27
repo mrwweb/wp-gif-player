@@ -2,7 +2,7 @@
 Contributors:  _changa_, cudaja, psmedia-hamburg
 Tags: gif, player, easy, performance, image, preview
 Requires at least: 3.0.1
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: 0.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
