@@ -54,6 +54,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 .gif_spinner{
     z-index: 3 !important;
 }
+.gif_spinner > div > div {
+    box-shadow: 0 0 2px rgba(0,0,0,.6) !important; /* override inline style */
+}
 img._showing{
     height: auto;
     width: 100%;
