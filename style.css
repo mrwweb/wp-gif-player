@@ -25,7 +25,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     text-align: center;
     overflow: hidden;
     background: #222;
-    line-height: 3em;
+    line-height: 3.5;
     font-size: 1.5em;
     text-transform: uppercase;
     color: #fff;
@@ -35,6 +35,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     border: 5px solid #fff;
     margin-left: -1.75em;
     margin-top: -1.75em;
+}
+.play_gif:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 1.25em;
+
+    /* CSS Triangle play button */
+    width: 0;
+    height: 0;
+    border: 1.25em solid transparent;
+    border-left: 1.65em solid rgba(255,255,255,.2);
 }
 .gif_wrap {
     position: relative;
