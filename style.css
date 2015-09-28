@@ -47,7 +47,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 }
 .gif_spinner{
     z-index: -1;
-    position: absolute;
+    position: absolute !important; /* override inline style */
     top: 50%;
     left: 50%;
 }
